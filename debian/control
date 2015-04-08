@@ -34,10 +34,13 @@ Build-Depends: cmake,
                libkf5xmlgui-dev,
                libqt5svg5-dev,
                libqt5webkit5-dev,
+               openbox,
                pkg-kde-tools (>> 0.15.15),
                plasma-framework-dev,
                qtbase5-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.6
 Homepage: http://projects.kde.org/plasma-sdk
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/plasma-sdk.git
