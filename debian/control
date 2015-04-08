@@ -1,0 +1,66 @@
+Source: plasma-sdk
+Section: kde
+Priority: extra
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               gettext,
+               kio-dev,
+               libkf5archive-dev,
+               libkf5attica-dev,
+               libkf5auth-dev,
+               libkf5bookmarks-dev,
+               libkf5codecs-dev,
+               libkf5completion-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemviews-dev,
+               libkf5jobwidgets-dev,
+               libkf5newstuff-dev,
+               libkf5package-dev,
+               libkf5parts-dev,
+               libkf5service-dev,
+               libkf5solid-dev,
+               libkf5sonnet-dev,
+               libkf5texteditor-dev,
+               libkf5textwidgets-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               libqt5svg5-dev,
+               libqt5webkit5-dev,
+               pkg-kde-tools (>> 0.15.15),
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.6
+Homepage: http://projects.kde.org/plasma-sdk
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/plasma-sdk.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-sdk.git
+
+Package: plasma-sdk
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: git
+Description: IDE tailored for development of Plasma components
+ A small IDE tailored for development of Plasma components,
+ such as Widgets, Runners, Dataengines.
+ .
+ This package is part of the KDE Plasma.
+
+Package: plasma-sdk-dbg
+Section: debug
+Architecture: any
+Depends: plasma-sdk (= ${binary:Version}), ${misc:Depends}
+Description: IDE tailored for development of Plasma components - debug symbols
+ A small IDE tailored for development of Plasma components,
+ such as Widgets, Runners, Dataengines.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the debugging symbols.
