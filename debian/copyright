@@ -1,0 +1,146 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: plasma-sdk
+Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/
+
+Files: *
+       debian/*
+Copyright: 2015 Marco Martin <mart@kde.org>
+ 2007 Paolo Capriotti <p.capriotti@gmail.com>
+ 2007 Ivan Cukic <ivan.cukic+kde@gmail.com>
+ 2008 by Petri Damsten <damu@iki.fi>
+ 2000 TrollTech AS
+ 2009 Aaron Seigo <aseigo@kde.org>
+ 2013-2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+ 2011 Kevin Ottens <ervin@kde.org>
+ 2014 Alex Richardson <arichardson.kde@gmail.com>
+ 2015 Harald Sitter <sitter@kde.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2,
+ or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: themeexplorer/src/themelistmodel.cpp
+ themeexplorer/src/themelistmodel.h
+Copyright:  2002 Karol Szwed <gallium@kde.org>
+ 2002 Daniel Molkentin <molkentin@kde.org>
+ 2007 Urs Wolfer <uwolfer @ kde.org>
+ 2009 by Davide Bettio <davide.bettio@kdemail.net>
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2,
+ or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: cuttlefish/autotests/iconmodeltest.cpp: LGPL
+ engineexplorer/ktreeviewsearchline.h: LGPL
+ engineexplorer/ktreeviewsearchline.cpp: LGPL
+Copyright: 2014 Alex Richardson <arichardson.kde@gmail.com>
+ 2003 Scott Wheeler <wheeler@kde.org>
+ 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+ 2006 Hamish Rodda <rodda@kde.org>
+ 2007 Pino Toscano <pino@kde.org>
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: plasmate/previewer/plasmoid/plasmoidpreviewer.h
+ plasmate/templates/mainKWinScript.js
+ plasmate/konsole/konsolepreviewer.h
+ plasmate/app/startpage/projectmanager.h
+ plasmate/app/startpage/projectmanager.cpp
+ plasmate/plugins/savesystemview/commitsmodel.cpp
+ plasmate/plugins/savesystemview/savesystemview.cpp
+ plasmate/plugins/savesystemview/savesystemviewplugin.cpp
+ plasmate/plugins/savesystemview/git.h
+ plasmate/plugins/savesystemview/savesystemviewplugin.h
+ plasmate/plugins/savesystemview/savesystemview.h
+ plasmate/plugins/savesystemview/commitsmodel.h
+ plasmate/plugins/savesystemview/git.cpp
+ plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.h
+ plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.cpp
+ plasmate/plugins/plasmaprojectmanager/plasmaitem.h
+ plasmate/plugins/plasmaprojectmanager/plasmaitem.cpp
+ themeexplorer/src/main.cpp
+ themeexplorer/src/thememodel.h
+ themeexplorer/src/thememodel.cpp
+Copyright: 2010 Lim Yuen Hoe <yuenhoe@hotmail.com>
+ 2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+ 2009 Lim Yuen Hoe <yuenhoe@hotmail.com>
+ 2012, 2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+ 2015 Marco Martin <mart@kde.org>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: plasmoidviewer/main.cpp:
+Copyright: 2007 Frerich Raabe <raabe@kde.org>
+ 2007-2008 Aaron Seigo <aseigo@kde.org>
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
