@@ -49,6 +49,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-sdk.git
 Package: plasma-sdk
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: bash
 Suggests: git
 Description: IDE tailored for development of Plasma components
  A small IDE tailored for development of Plasma components,
