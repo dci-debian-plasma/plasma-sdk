@@ -51,6 +51,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: bash (>= 4.3)
 Suggests: git
+Breaks: plasmate (<< 4:5.2.50)
+Replaces: plasmate (<< 4:5.2.50)
 Description: IDE tailored for development of Plasma components
  A small IDE tailored for development of Plasma components,
  such as Widgets, Runners, Dataengines.
