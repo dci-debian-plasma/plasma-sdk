@@ -1,5 +1,9 @@
-plasma-sdk (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
+plasma-sdk (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Initial release.
 
- -- Harald Sitter <sitter@kde.org>  Wed, 08 Apr 2015 15:27:03 +0200
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 17:09:12 +0200
