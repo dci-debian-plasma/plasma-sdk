@@ -2,9 +2,9 @@ Source: plasma-sdk
 Section: kde
 Priority: extra
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.8.0~),
                gettext,
                kio-dev,
                libkf5archive-dev,
@@ -21,6 +21,7 @@ Build-Depends: cmake,
                libkf5iconthemes-dev,
                libkf5itemviews-dev,
                libkf5jobwidgets-dev,
+               libkf5kdelibs4support-dev,
                libkf5newstuff-dev,
                libkf5package-dev,
                libkf5parts-dev,
@@ -37,7 +38,7 @@ Build-Depends: cmake,
                openbox,
                pkg-kde-tools (>> 0.15.15),
                plasma-framework-dev,
-               qtbase5-dev,
+               qtbase5-dev (>= 5.4.0~),
                qtdeclarative5-dev,
                xauth,
                xvfb
