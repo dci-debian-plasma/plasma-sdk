@@ -1,128 +1,207 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: plasma-sdk
-Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/
+Source: git://anongit.kde.org/plasma-sdk
 
 Files: *
-       debian/*
-Copyright: 2015 Marco Martin <mart@kde.org>
- 2007 Paolo Capriotti <p.capriotti@gmail.com>
- 2007 Ivan Cukic <ivan.cukic+kde@gmail.com>
- 2008 by Petri Damsten <damu@iki.fi>
- 2000 TrollTech AS
- 2009 Aaron Seigo <aseigo@kde.org>
- 2013-2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
- 2011 Kevin Ottens <ervin@kde.org>
- 2014 Alex Richardson <arichardson.kde@gmail.com>
- 2015 Harald Sitter <sitter@kde.org>
+Copyright: 2006-2009, Aaron Seigo <aseigo@kde.org>
+           2012, Antonis Tsiapaliokas <kok3rs@gmail.com>
+           2010, Diego '[Po]lentino' Casella <polentino911@gmail.com>
+           2009, Dmitry Suzdalev <dimsuz@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2011-2014, Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+           2012-2013, Giorgos Tsiapaliokas <terietor@gmail.com>
+           2013, Ivan Cukic <ivan.cukic@kde.org>
+           2009-2010, Lim Yuen Hoe <yuenhoe@hotmail.com>
+           2012-2013, Marco Martin <mart@kde.org>
+           2009-2011, Martin Gräßlin <mgraesslin@kde.org>
+           2009, Riccardo Iaconelli <riccardo@kde.org>
+           2009, Richard Moore <rich@kde.org>
+           2014-2015, Sebastian Kügler <sebas@kde.org>
+           2009-2014, A Plasma fejlesztői
+           2009, Aaron J. Seigo
+           2009-2012, Foireann Fhorbartha Plasma
+           2008, Free Software Foundation, Inc
+           2008-2009, K Desktop Environment
+           2009-2013, Plasma-Entwicklerteam
+           2009, Rosetta Contributors and Canonical Ltd 2009
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2012-2015, This_file_is_part_of_KDE
+           2006, กลุ่มผู้พัฒนา KDE
 License: GPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2,
- or (at your option) any later version.
+
+Files: plasmate/app/startpage/projectmanager.cpp
+       plasmate/app/startpage/projectmanager.h
+       plasmate/konsole/konsolepreviewer.h
+       plasmate/plugins/plasmaprojectmanager/plasmaitem.cpp
+       plasmate/plugins/plasmaprojectmanager/plasmaitem.h
+       plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.cpp
+       plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.h
+       plasmate/plugins/savesystemview/commitsmodel.cpp
+       plasmate/plugins/savesystemview/commitsmodel.h
+       plasmate/plugins/savesystemview/git.cpp
+       plasmate/plugins/savesystemview/git.h
+       plasmate/plugins/savesystemview/qml/CommitsView/Branch.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/DeleteBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/InputBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/NewBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/RenameBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/SelectionBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/BranchView/SwitchBranchView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/Commit.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/CommitsView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/NewSavePoint.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/NewSavePointView.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/SaveSystemItem.qml
+       plasmate/plugins/savesystemview/qml/CommitsView/View.qml
+       plasmate/plugins/savesystemview/qml/Home.qml
+       plasmate/plugins/savesystemview/qml/main.qml
+       plasmate/plugins/savesystemview/savesystemview.cpp
+       plasmate/plugins/savesystemview/savesystemview.h
+       plasmate/plugins/savesystemview/savesystemviewplugin.cpp
+       plasmate/plugins/savesystemview/savesystemviewplugin.h
+       plasmate/previewer/plasmoid/plasmoidpreviewer.h
+       plasmate/templates/mainPlasmoid.js
+       plasmate/templates/mainPlasmoid.qml
+       plasmate/tests/testdata/mainPlasmoid.qml
+       plasmate/tests/testdata/org.kde.tests.packagehandlertest/contents/ui/main.qml
+       plasmoidviewer/qmlpackages/shell/contents/views/Background.qml
+       plasmoidviewer/qmlpackages/shell/contents/views/Konsole.qml
+       plasmoidviewer/qmlpackages/shell/contents/views/SdkButtons.qml
+       themeexplorer/package/contents/ui/delegates/Hand.qml
+       themeexplorer/package/contents/ui/delegates/actionbutton.qml
+       themeexplorer/package/contents/ui/delegates/allframesvgs.qml
+       themeexplorer/package/contents/ui/delegates/analog_meter.qml
+       themeexplorer/package/contents/ui/delegates/busyindicator.qml
+       themeexplorer/package/contents/ui/delegates/button.qml
+       themeexplorer/package/contents/ui/delegates/checkmarks.qml
+       themeexplorer/package/contents/ui/delegates/clock.qml
+       themeexplorer/package/contents/ui/delegates/containment-controls.qml
+       themeexplorer/package/contents/ui/delegates/dialog.qml
+       themeexplorer/package/contents/ui/delegates/framesvg.qml
+       themeexplorer/package/contents/ui/delegates/icons.qml
+       themeexplorer/package/contents/ui/delegates/listitem.qml
+       themeexplorer/package/contents/ui/delegates/monitor.qml
+       themeexplorer/package/contents/ui/delegates/panel.qml
+       themeexplorer/package/contents/ui/delegates/progressbar.qml
+       themeexplorer/package/contents/ui/delegates/scrollbar.qml
+       themeexplorer/package/contents/ui/delegates/slider.qml
+       themeexplorer/package/contents/ui/delegates/tabbar.qml
+       themeexplorer/package/contents/ui/delegates/textfield.qml
+       themeexplorer/package/contents/ui/main.qml
+       themeexplorer/src/main.cpp
+       themeexplorer/src/thememodel.cpp
+       themeexplorer/src/thememodel.h
+Copyright: 2013, Antonis Tsiapaliokas <kok3rs@gmail.com>
+           2013, David Edmundson <davidedmundson@kde.org>
+           2014, Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+           2012, Giorgos Tsiapaliokas <terietor@gmail.com>
+           2009-2010, Lim Yuen Hoe <yuenhoe@hotmail.com>
+           2012-2015, Marco Martin <mart@kde.org>
+           2012, Viranch Mehta <viranch.mehta@gmail.com>
+License: LGPL-2+
+
+Files: plasmate/app/startpage/projecthandler.cpp
+       plasmate/app/startpage/projecthandler.h
+       plasmate/app/tests/projecthandlertest.cpp
+       plasmate/app/tests/projecthandlertest.h
+       plasmate/editors/imageviewer/imageloader.cpp
+       plasmate/editors/imageviewer/imageviewer.cpp
+       plasmate/editors/imageviewer/imageviewerpart.cpp
+       plasmate/editors/kconfigxt/kconfigxteditorpart.cpp
+       plasmate/editors/metadata/metadataeditorpart.cpp
+       plasmate/editors/metadata/metadatahandler.cpp
+       plasmate/editors/metadata/metadatahandler.h
+       plasmate/packagehandler/packagehandler.cpp
+       plasmate/packagehandler/packagehandler.h
+       plasmate/packagehandler/plasmoidhandler.cpp
+       plasmate/packagehandler/plasmoidhandler.h
+       plasmate/packagehandler/themehandler.cpp
+       plasmate/packagehandler/themehandler.h
+       plasmate/tests/metadatahandlertest.cpp
+       plasmate/tests/metadatahandlertest.h
+       plasmate/tests/plasmoidhandlertest.cpp
+       plasmate/tests/plasmoidhandlertest.h
+       plasmate/tests/themehandlertest.cpp
+       plasmate/tests/themehandlertest.h
+       remote-widgets-browser/main.cpp
+       remote-widgets-browser/plasmafiltermodel.cpp
+       remote-widgets-browser/plasmafiltermodel.h
+Copyright: 2014, Antonis Tsiapaliokas <kok3rs@gmail.com>
+           2013-2014, Giorgos Tsiapaliokas <giorgos.tsiapaliokas@Kde.org>
+           2011-2014, Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
+           2013, Giorgos Tsiapaliokas <terietor@gmail.com>
+           2011, Kevin Ottens <ervin@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: po/ca/cuttlefish.po
+       po/ca/kdevpackagemanagerview.po
+       po/ca/plasma_shell_org.kde.desktop.po
+       po/ca/plasmaengineexplorer.po
+       po/ca/plasmate.po
+       po/ca/plasmawallpaperviewer.po
+       po/ca/plasmoidviewer.po
+       po/ca/remote-widgets-browser.po
+       po/ca/themeexplorer.po
+       po/ca@valencia/plasmaengineexplorer.po
+       po/ca@valencia/plasmate.po
+       po/ca@valencia/plasmawallpaperviewer.po
+       po/ca@valencia/plasmoidviewer.po
+       po/ca@valencia/remote-widgets-browser.po
+       po/uk/cuttlefish.po
+       po/uk/kdevpackagemanagerview.po
+       po/uk/plasma_shell_org.kde.desktop.po
+       po/uk/plasmaengineexplorer.po
+       po/uk/plasmate.po
+       po/uk/plasmawallpaperviewer.po
+       po/uk/plasmoidviewer.po
+       po/uk/remote-widgets-browser.po
+       po/uk/themeexplorer.po
+Copyright: 2007-2014, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
  .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
- .
- You should have received a copy of the GNU General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise, the
+ complete text of the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
+
+Files: cuttlefish/autotests/iconmodeltest.cpp
+       engineexplorer/ktreeviewsearchline.cpp
+       engineexplorer/ktreeviewsearchline.h
+Copyright: 2014, Alex Richardson <arichardson.kde@gmail.com>
+           2006, Hamish Rodda <rodda@kde.org>
+           2007, Pino Toscano <pino@kde.org>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2003, Scott Wheeler <wheeler@kde.org>
+License: LGPL-2
 
 Files: themeexplorer/src/themelistmodel.cpp
- themeexplorer/src/themelistmodel.h
-Copyright:  2002 Karol Szwed <gallium@kde.org>
- 2002 Daniel Molkentin <molkentin@kde.org>
- 2007 Urs Wolfer <uwolfer @ kde.org>
- 2009 by Davide Bettio <davide.bettio@kdemail.net>
+       themeexplorer/src/themelistmodel.h
+Copyright: 2002, Daniel Molkentin <molkentin@kde.org>
+           2009, Davide Bettio <davide.bettio@kdemail.net>
+           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
+           2002, Karol Szwed <gallium@kde.org>
+           2007, Paolo Capriotti <p.capriotti@gmail.com>
+           2008, Petri Damsten <damu@iki.fi>
+           2000, TrollTech AS
+           2007, Urs Wolfer <uwolfer@kde.org>
 License: GPL-2
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2,
- or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
- .
- You should have received a copy of the GNU General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: cuttlefish/autotests/iconmodeltest.cpp: LGPL
- engineexplorer/ktreeviewsearchline.h: LGPL
- engineexplorer/ktreeviewsearchline.cpp: LGPL
-Copyright: 2014 Alex Richardson <arichardson.kde@gmail.com>
- 2003 Scott Wheeler <wheeler@kde.org>
- 2005 Rafal Rzepecki <divide@users.sourceforge.net>
- 2006 Hamish Rodda <rodda@kde.org>
- 2007 Pino Toscano <pino@kde.org>
-License: LGPL-2
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License version
- 2 as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
- .
- You should have received a copy of the GNU Library General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+Files: COPYING.LIB
+       plasmate/templates/mainKWinScript.js
+Copyright: 1991-1999, Free Software Foundation, Inc
+License: LGPL-2.1+
 
-Files: plasmate/previewer/plasmoid/plasmoidpreviewer.h
- plasmate/templates/mainKWinScript.js
- plasmate/konsole/konsolepreviewer.h
- plasmate/app/startpage/projectmanager.h
- plasmate/app/startpage/projectmanager.cpp
- plasmate/plugins/savesystemview/commitsmodel.cpp
- plasmate/plugins/savesystemview/savesystemview.cpp
- plasmate/plugins/savesystemview/savesystemviewplugin.cpp
- plasmate/plugins/savesystemview/git.h
- plasmate/plugins/savesystemview/savesystemviewplugin.h
- plasmate/plugins/savesystemview/savesystemview.h
- plasmate/plugins/savesystemview/commitsmodel.h
- plasmate/plugins/savesystemview/git.cpp
- plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.h
- plasmate/plugins/plasmaprojectmanager/plasmaprojectmanager.cpp
- plasmate/plugins/plasmaprojectmanager/plasmaitem.h
- plasmate/plugins/plasmaprojectmanager/plasmaitem.cpp
- themeexplorer/src/main.cpp
- themeexplorer/src/thememodel.h
- themeexplorer/src/thememodel.cpp
-Copyright: 2010 Lim Yuen Hoe <yuenhoe@hotmail.com>
- 2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
- 2009 Lim Yuen Hoe <yuenhoe@hotmail.com>
- 2012, 2014 Giorgos Tsiapaliokas <giorgos.tsiapaliokas@kde.org>
- 2015 Marco Martin <mart@kde.org>
-License: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+Files: plasmoidviewer/main.cpp
+Copyright: 2007-2008, Aaron Seigo <aseigo@kde.org>
+           2007, Frerich Raabe <raabe@kde.org>
+License: BSD-2-clause
 
-Files: plasmoidviewer/main.cpp:
-Copyright: 2007 Frerich Raabe <raabe@kde.org>
- 2007-2008 Aaron Seigo <aseigo@kde.org>
+Files: debian/*
+Copyright: 2015, Harald Sitter <sitter@kde.org>
+License: GPL-2+
+
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -144,3 +223,113 @@ License: BSD-2-clause
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2,
+ or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+ USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation; either version 2.1 of the License, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA .
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
