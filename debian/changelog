@@ -1,15 +1,5 @@
-plasma-sdk (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
+plasma-sdk (4:5.3.1-0ubuntu1) wily; urgency=medium
 
-  [ Harald Sitter ]
-  * Initial release.
-
-  [ Jonathan Riddell ]
   * new upstream release
-
-  [ Scarlett Clark ]
-  * Vivid backport
-
-  [ Jonathan Riddell ]
-  * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 20:35:20 +0200
