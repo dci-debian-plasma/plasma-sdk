@@ -1,11 +1,13 @@
 Source: plasma-sdk
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.8.0~),
                gettext,
+               kdevplatform-dev,
                kio-dev,
                libkf5archive-dev,
                libkf5attica-dev,
@@ -21,6 +23,7 @@ Build-Depends: cmake,
                libkf5iconthemes-dev,
                libkf5itemviews-dev,
                libkf5jobwidgets-dev,
+               libkf5kdelibs4support-dev,
                libkf5newstuff-dev,
                libkf5package-dev,
                libkf5parts-dev,
@@ -32,27 +35,27 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev,
                libkf5windowsystem-dev,
                libkf5xmlgui-dev,
-               libqt5svg5-dev,
+               libqt5svg5-dev (>= 5.4),
                libqt5webkit5-dev,
                openbox,
                pkg-kde-tools (>> 0.15.15),
                plasma-framework-dev,
-               qtbase5-dev,
-               qtdeclarative5-dev,
+               qtbase5-dev (>= 5.4.0~),
+               qtdeclarative5-dev (>= 5.4),
                xauth,
                xvfb
 Standards-Version: 3.9.6
 Homepage: http://projects.kde.org/plasma-sdk
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/plasma-sdk.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-sdk.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-sdk.git
 
 Package: plasma-sdk
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: bash (>= 4.3)
-Suggests: git
 Breaks: plasmate (<< 4:5.2.50)
 Replaces: plasmate (<< 4:5.2.50)
+Recommends: bash (>= 4.3)
+Suggests: git
 Description: IDE tailored for development of Plasma components
  A small IDE tailored for development of Plasma components,
  such as Widgets, Runners, Dataengines.
@@ -61,6 +64,7 @@ Description: IDE tailored for development of Plasma components
 
 Package: plasma-sdk-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Depends: plasma-sdk (= ${binary:Version}), ${misc:Depends}
 Description: IDE tailored for development of Plasma components - debug symbols
