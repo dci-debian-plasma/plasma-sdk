@@ -1,9 +1,9 @@
-plasma-sdk (5.3.2-1~) UNRELEASED; urgency=medium
+plasma-sdk (5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:23:41 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:33:14 +0200
 
 plasma-sdk (5.3.1-1) unstable; urgency=medium
 
