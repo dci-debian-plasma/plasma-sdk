@@ -1,1 +1,3 @@
 plasma-sdk: script-not-executable usr/share/kpackage/genericqml/org.kde.plasma.themeexplorer/contents/code/openInEditor.sh
+plasma-sdk: script-not-executable usr/share/applications/cuttlefish.desktop
+plasma-sdk: unusual-interpreter usr/share/applications/cuttlefish.desktop #!xdg-open
