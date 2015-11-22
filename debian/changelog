@@ -1,6 +1,7 @@
 plasma-sdk (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release (LP: #1518598)
+  * Install translations for cuttlefish_editorplugin
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 14:14:27 +0100
 

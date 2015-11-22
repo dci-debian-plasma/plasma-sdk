@@ -8,6 +8,7 @@ usr/share/kpackage/genericqml/org.kde.plasma.themeexplorer/
 usr/share/kservices5/plasma-package-org.kde.plasma.cuttlefish.desktop
 usr/share/kservices5/plasma-shell-org.kde.plasma.plasmoidviewershell.desktop
 usr/share/locale/*/*/cuttlefish.mo
+usr/share/locale/*/*/cuttlefish_editorplugin.mo
 usr/share/locale/*/*/kdevpackagemanagerview.mo
 usr/share/locale/*/*/plasma_shell_org.kde.plasmoidviewershell.mo
 usr/share/locale/*/*/plasmaengineexplorer.mo
