@@ -20,12 +20,12 @@ Copyright: 2006-2009, Aaron Seigo <aseigo@kde.org>
            2009-2014, A Plasma fejlesztői
            2009, Aaron J. Seigo
            2009-2012, Foireann Fhorbartha Plasma
-           2008, Free Software Foundation, Inc
+           2001-2011, Free Software Foundation, Inc
            2008-2009, K Desktop Environment
-           2009-2013, Plasma-Entwicklerteam
+           2009-2014, Plasma-Entwicklerteam
            2009, Rosetta Contributors and Canonical Ltd 2009
            2010, Rosetta Contributors and Canonical Ltd 2010
-           2012-2015, This_file_is_part_of_KDE
+           2007-2015, This_file_is_part_of_KDE
            2006, กลุ่มผู้พัฒนา KDE
 License: GPL-2+
 
@@ -156,7 +156,7 @@ Files: po/ca/cuttlefish.po
        po/uk/plasmoidviewer.po
        po/uk/remote-widgets-browser.po
        po/uk/themeexplorer.po
-Copyright: 2007-2014, This_file_is_part_of_KDE
+Copyright: 2007-2015, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
  This file is distributed under the license LGPL version 2.1 or
  version 3 or later versions approved by the membership of KDE e.V.
