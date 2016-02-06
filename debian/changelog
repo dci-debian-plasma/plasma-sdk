@@ -1,16 +1,28 @@
-plasma-sdk (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
+plasma-sdk (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
 
   [ Clive Johnston ]
-  * new upstream release
   * New upstream release
 
   [ Scarlett Clark ]
   * Debian merge, No remaining changes. 
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:01:43 +0000
+  [ Philip Muškovac ]
+  * Merge with debian git master
+
+  [ Clive Johnston ]
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:18:11 +0000
+
+plasma-sdk (5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:51 +0100
 
 plasma-sdk (5.4.3-1) unstable; urgency=medium
 
@@ -73,12 +85,15 @@ plasma-sdk (4:5.3.95-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:20:55 +0200
 
+<<<<<<< HEAD
 plasma-sdk (4:5.3.2-0ubuntu1) wily; urgency=medium
 
   * Update install files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:37:30 +0000
 
+=======
+>>>>>>> origin/kubuntu_xenial_archive
 plasma-sdk (5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
