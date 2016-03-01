@@ -62,16 +62,3 @@ Description: IDE tailored for development of Plasma components
  such as Widgets, Runners, Dataengines.
  .
  This package is part of the KDE Plasma.
-
-Package: plasma-sdk-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: plasma-sdk (= ${binary:Version}), ${misc:Depends}
-Description: IDE tailored for development of Plasma components - debug symbols
- A small IDE tailored for development of Plasma components,
- such as Widgets, Runners, Dataengines.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the debugging symbols.
