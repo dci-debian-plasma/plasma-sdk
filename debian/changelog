@@ -85,15 +85,12 @@ plasma-sdk (4:5.3.95-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:20:55 +0200
 
-<<<<<<< HEAD
 plasma-sdk (4:5.3.2-0ubuntu1) wily; urgency=medium
 
   * Update install files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:37:30 +0000
 
-=======
->>>>>>> origin/kubuntu_xenial_archive
 plasma-sdk (5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
