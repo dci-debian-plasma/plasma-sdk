@@ -1,4 +1,4 @@
-plasma-sdk (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+plasma-sdk (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
@@ -13,7 +13,7 @@ plasma-sdk (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:18:11 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:28:44 +0100
 
 plasma-sdk (5.4.3-1) unstable; urgency=medium
 
