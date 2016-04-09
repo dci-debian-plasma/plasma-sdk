@@ -1,10 +1,11 @@
-plasma-sdk (5.6.2-1~1.gbp23b970) UNRELEASED; urgency=medium
+plasma-sdk (5.6.2-1~2.gbp6f3e7f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @23b97095d8f1183ada7972db3138818a44da2498 **
+  ** SNAPSHOT build @6f3e7f78b59a81640b8ccb6b20a3bb2763335265 **
 
   * Update build-deps and deps with the info from cmake
+  * Disabled kdevplatform-dev build dep till it gets released
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:00:17 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Apr 2016 18:16:51 +0200
 
 plasma-sdk (5.5.4-1) experimental; urgency=medium
 
