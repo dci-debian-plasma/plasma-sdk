@@ -9,5 +9,5 @@ override_dh_strip:
 	$(overridden_command) --dbgsym-migration='plasma-sdk-dbg (<= 5.5.5-1~~)'
 
 override_dh_auto_test:
-	dh_auto_installwm openbox\
-	xvfb-run -a dh_auto_test
+	# Disable auto tests at build time
+	:
