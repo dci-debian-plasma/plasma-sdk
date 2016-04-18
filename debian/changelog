@@ -1,11 +1,22 @@
-plasma-sdk (5.6.2-1~2.gbp6f3e7f) UNRELEASED; urgency=medium
+plasma-sdk (5.6.2-1~3.gbpbeea9c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @beea9c1368d8b81227795fcc623f825004828053 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @6f3e7f78b59a81640b8ccb6b20a3bb2763335265 **
 
   * Update build-deps and deps with the info from cmake
   * Disabled kdevplatform-dev build dep till it gets released
+  * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Apr 2016 18:16:51 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * Force installing in debian/tmp
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 19:00:14 +0200
 
 plasma-sdk (5.5.4-1) experimental; urgency=medium
 
