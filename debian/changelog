@@ -1,6 +1,6 @@
-plasma-sdk (5.6.3-1~1.gbp09063b) UNRELEASED; urgency=medium
+plasma-sdk (5.6.4-1~1.gbpc8a210) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @09063bcedf736eda811d34e89186849578f3b8c1 **
+  ** SNAPSHOT build @c8a210dca9375a728d146ee68ef33aabda596073 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @6f3e7f78b59a81640b8ccb6b20a3bb2763335265 **
@@ -18,8 +18,9 @@ plasma-sdk (5.6.3-1~1.gbp09063b) UNRELEASED; urgency=medium
   * Disable auto tests at build time
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 19 Apr 2016 18:00:15 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:00:29 +0200
 
 plasma-sdk (5.5.4-1) experimental; urgency=medium
 
