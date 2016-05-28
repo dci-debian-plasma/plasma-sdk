@@ -1,10 +1,6 @@
-plasma-sdk (5.6.4-1~1.gbpc8a210) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c8a210dca9375a728d146ee68ef33aabda596073 **
+plasma-sdk (5.6.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @6f3e7f78b59a81640b8ccb6b20a3bb2763335265 **
-
   * Update build-deps and deps with the info from cmake
   * Disabled kdevplatform-dev build dep till it gets released
   * Bump Standards-Version to 3.9.8
@@ -17,10 +13,8 @@ plasma-sdk (5.6.4-1~1.gbpc8a210) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Disable auto tests at build time
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:00:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 02:27:49 +0200
 
 plasma-sdk (5.5.4-1) experimental; urgency=medium
 
