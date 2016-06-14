@@ -1,3 +1,9 @@
+plasma-sdk (4:5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:14:24 +0000
+
 plasma-sdk (4:5.6.4-0neon) xenial; urgency=medium
 
   * New release
