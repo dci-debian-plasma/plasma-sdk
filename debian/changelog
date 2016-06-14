@@ -1,3 +1,11 @@
+plasma-sdk (5.6.5-1~1.gbp8ed5d5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8ed5d53ca338426c4493d4628e4520c0f0e63cc5 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 18:00:13 +0200
+
 plasma-sdk (5.6.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
