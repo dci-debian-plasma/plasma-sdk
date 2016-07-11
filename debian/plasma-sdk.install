@@ -3,7 +3,6 @@ usr/bin/plasmaengineexplorer
 usr/bin/plasmathemeexplorer
 usr/bin/plasmoidviewer
 usr/lib/*/qt5/plugins/ktexteditor/cuttlefishplugin.so
-usr/share/applications/cuttlefish.desktop
 usr/share/applications/org.kde.plasma.themeexplorer.desktop
 usr/share/kpackage/genericqml/org.kde.plasma.themeexplorer/
 usr/share/kservices5/plasma-package-org.kde.plasma.cuttlefish.desktop
@@ -17,6 +16,5 @@ usr/share/locale/*/*/plasmate.mo
 usr/share/locale/*/*/plasmawallpaperviewer.mo
 usr/share/locale/*/*/plasmoidviewer.mo
 usr/share/locale/*/*/remote-widgets-browser.mo
-usr/share/locale/*/*/themeexplorer.mo
 usr/share/plasma/packages/org.kde.plasma.cuttlefish/
 usr/share/plasma/shells/org.kde.plasma.plasmoidviewershell/
