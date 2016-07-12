@@ -1,17 +1,12 @@
-plasma-sdk (5.7.0-1~3.gbp463061) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @463061072855c372a76bb0643dd18dd639adcd90 **
+plasma-sdk (5.7.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @ab4e37bbfab8a07965fb0835ed9bdefe078fb943 **
-
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
-  * Update install file
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 12 Jul 2016 08:57:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Jul 2016 09:45:18 +0200
 
 plasma-sdk (5.6.5-1) unstable; urgency=medium
 
