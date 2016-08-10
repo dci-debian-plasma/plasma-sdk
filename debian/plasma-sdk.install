@@ -19,5 +19,7 @@ usr/share/locale/*/*/plasmawallpaperviewer.mo
 usr/share/locale/*/*/plasmoidviewer.mo
 usr/share/locale/*/*/remote-widgets-browser.mo
 usr/share/metainfo/org.kde.cuttlefish.appdata.xml
+usr/share/metainfo/org.kde.plasma.cuttlefish.appdata.xml
+usr/share/metainfo/org.kde.plasma.themeexplorer.appdata.xml
 usr/share/plasma/packages/org.kde.plasma.cuttlefish/
 usr/share/plasma/shells/org.kde.plasma.plasmoidviewershell/
