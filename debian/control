@@ -52,6 +52,7 @@ Package: plasma-sdk
 Architecture: any
 Depends: plasma-framework,
          qml-module-org-kde-kirigami,
+         qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: bash (>= 4.3)
