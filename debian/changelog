@@ -1,5 +1,9 @@
 plasma-sdk (5.7.4-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove plasma-sdk.install, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 20:38:22 +0200
 
