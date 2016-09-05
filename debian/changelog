@@ -6,6 +6,7 @@ plasma-sdk (5.7.4-2) UNRELEASED; urgency=medium
     - remove plasma-sdk.install, no more used now
   * Remove dbgsym migration from plasma-sdk-dbg, since the latter does not
     exist in any stable Debian release.
+  * Remove the plasmate breaks/replaces, since plasmate was never in Debian.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 20:38:22 +0200
 
