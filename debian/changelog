@@ -1,12 +1,13 @@
-plasma-sdk (5.8.0-1~1.gbpf7e177) UNRELEASED; urgency=medium
+plasma-sdk (5.8.0-1~2.gbp953571) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f7e177761dc07aa754c5683a2c29a8c4d5534d03 **
+  ** SNAPSHOT build @953571499bfef92f8899b6610c8614aadd1659aa **
 
   * release to unstable, as team upload
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:41:07 +0200
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 20:00:35 +0200
 
 plasma-sdk (5.7.4-2) unstable; urgency=medium
 
