@@ -1,13 +1,8 @@
-plasma-sdk (5.8.0-1~2.gbp953571) UNRELEASED; urgency=medium
+plasma-sdk (5.8.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @953571499bfef92f8899b6610c8614aadd1659aa **
+  * New upstream release (5.8.0)
 
-  * release to unstable, as team upload
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 20:00:35 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:06:39 +0200
 
 plasma-sdk (5.7.4-2) unstable; urgency=medium
 
