@@ -50,8 +50,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-sdk.git
 Package: plasma-sdk
 Architecture: any
 Depends: git,
-         kirigami,
          plasma-framework,
+         qml-module-org-kde-kirigami,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
