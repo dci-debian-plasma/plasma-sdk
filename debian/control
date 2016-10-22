@@ -7,57 +7,51 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.18.0~),
                gettext,
-               git,
-               kdevplatform-dev,
-               kio-dev (>= 5.18.0~),
-               kirigami,
-               libgrantlee5-dev,
-               libkf5archive-dev (>= 5.18.0~),
-               libkf5attica-dev (>= 5.18.0~),
-               libkf5auth-dev (>= 5.18.0~),
-               libkf5bookmarks-dev (>= 5.18.0~),
-               libkf5codecs-dev (>= 5.18.0~),
-               libkf5completion-dev (>= 5.18.0~),
-               libkf5config-dev (>= 5.18.0~),
-               libkf5configwidgets-dev (>= 5.18.0~),
-               libkf5coreaddons-dev (>= 5.18.0~),
-               libkf5declarative-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5iconthemes-dev (>= 5.18.0~),
-               libkf5itemviews-dev (>= 5.18.0~),
-               libkf5jobwidgets-dev (>= 5.18.0~),
-               libkf5kdelibs4support-dev (>= 5.18.0~),
-               libkf5newstuff-dev (>= 5.18.0~),
-               libkf5package-dev (>= 5.18.0~),
-               libkf5parts-dev (>= 5.18.0~),
-               libkf5service-dev (>= 5.18.0~),
-               libkf5solid-dev (>= 5.18.0~),
-               libkf5sonnet-dev (>= 5.18.0~),
-               libkf5texteditor-dev (>= 5.18.0~),
-               libkf5textwidgets-dev (>= 5.18.0~),
-               libkf5widgetsaddons-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
-               libkf5xmlgui-dev (>= 5.18.0~),
+               libkf5archive-dev,
+               libkf5attica-dev,
+               libkf5auth-dev,
+               libkf5bookmarks-dev,
+               libkf5codecs-dev,
+               libkf5completion-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemmodels-dev,
+               libkf5itemviews-dev,
+               libkf5jobwidgets-dev,
+               libkf5kdelibs4support-dev,
+               libkf5kio-dev,
+               libkf5newstuff-dev,
+               libkf5package-dev,
+               libkf5parts-dev,
+               libkf5plasma-dev,
+               libkf5service-dev,
+               libkf5solid-dev,
+               libkf5sonnet-dev,
+               libkf5texteditor-dev,
+               libkf5textwidgets-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
                libqt5svg5-dev (>= 5.4),
-               libqt5webkit5-dev,
-               libqt5x11extras5-dev,
-               openbox,
+               libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>> 0.15.15),
-               plasma-framework-dev (>= 5.18.0~),
                qtbase5-dev (>= 5.4.0~),
-               qtdeclarative5-dev (>= 5.4),
-               xauth,
-               xvfb
-Standards-Version: 3.9.6
+               qtdeclarative5-dev (>= 5.4)
+Standards-Version: 3.9.8
 Homepage: http://projects.kde.org/plasma-sdk
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-sdk.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-sdk.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-sdk.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-sdk.git
 
 Package: plasma-sdk
 Architecture: any
 Depends: git,
-         kirigami,
          plasma-framework,
+         qml-module-org-kde-kirigami,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -70,16 +64,3 @@ Description: IDE tailored for development of Plasma components
  such as Widgets, Runners, Dataengines.
  .
  This package is part of the KDE Plasma.
-
-Package: plasma-sdk-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: plasma-sdk (= ${binary:Version}), ${misc:Depends}
-Description: IDE tailored for development of Plasma components - debug symbols
- A small IDE tailored for development of Plasma components,
- such as Widgets, Runners, Dataengines.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the debugging symbols.
