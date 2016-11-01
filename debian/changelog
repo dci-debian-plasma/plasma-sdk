@@ -1,3 +1,9 @@
+plasma-sdk (4:5.8.3-1neon) xenial; urgency=medium
+
+  * Add missing deps kirigami and kdevplatform. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 01 Nov 2016 08:15:06 -0700
+
 plasma-sdk (4:5.8.3-0neon) xenial; urgency=medium
 
   * New release
