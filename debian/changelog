@@ -1,3 +1,11 @@
+plasma-sdk (5.8.6-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.6)
+  * Add missing runtime dependency of qml-module-org-kde-kirigami.
+    Thanks to Luigi Toscano for reporting (Closes: 840695)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 16 Mar 2017 18:31:35 +0100
+
 plasma-sdk (5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
