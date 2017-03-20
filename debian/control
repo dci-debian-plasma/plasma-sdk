@@ -53,6 +53,7 @@ Package: plasma-sdk
 Architecture: any
 Depends: git,
          plasma-framework,
+         qml-module-org-kde-draganddrop,
          qml-module-org-kde-kirigami,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
