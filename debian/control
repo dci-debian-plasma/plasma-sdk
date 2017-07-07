@@ -55,7 +55,7 @@ Architecture: any
 Depends: git,
          plasma-framework,
          qml-module-org-kde-draganddrop,
-         qml-module-org-kde-kirigami,
+         qml-module-org-kde-kirigami2,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
