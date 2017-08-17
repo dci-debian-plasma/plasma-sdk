@@ -1,8 +1,25 @@
-plasma-sdk (5.10.3-1~) UNRELEASED; urgency=medium
+plasma-sdk (5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:51:43 +0200
+  [ Jonathan Riddell ]
+  * add gpg keyring
+  * qmllint add depends on qml-module-qtgraphicaleffects
+  * dep on git and qtwebkit
+  * new qml dep
+  * now asking for kirigami2-dev
+  * kdevplatform needs libgrantlee5-dev
+  * now uses kirigami2
+
+  [ Scarlett Clark ]
+  * Add missing deps kirigami and kdevplatform.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:29:12 +0200
 
 plasma-sdk (5.8.6-1) unstable; urgency=medium
 
