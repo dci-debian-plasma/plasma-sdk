@@ -46,7 +46,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4.0~),
-               qtdeclarative5-dev (>= 5.4)
+               qtdeclarative5-dev (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: http://projects.kde.org/plasma-sdk
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-sdk.git
@@ -60,7 +60,7 @@ Depends: git,
          qml-module-org-kde-kirigami2,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: bash (>= 4.3)
 Suggests: git
 Description: IDE tailored for development of Plasma components
