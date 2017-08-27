@@ -1,4 +1,4 @@
-plasma-sdk (5.10.4-1~) UNRELEASED; urgency=medium
+plasma-sdk (5.10.5-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3).
@@ -6,6 +6,8 @@ plasma-sdk (5.10.4-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.0.0.
   * Update upstream metadata
   * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.5).
 
   [ Jonathan Riddell ]
   * add gpg keyring
@@ -19,7 +21,7 @@ plasma-sdk (5.10.4-1~) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add missing deps kirigami and kdevplatform.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:29:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:51:17 +0200
 
 plasma-sdk (5.8.6-1) unstable; urgency=medium
 
